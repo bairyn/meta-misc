@@ -1,0 +1,30 @@
+name:                meta-misc
+version:             0.1.0
+cabal-version:       >= 1.10
+build-type:          Simple
+license:             BSD3
+license-file:        LICENSE
+copyright:           Copyright (C) 2011 Byron James Johnson
+author:              Byron James Johnson
+maintainer:          KrabbyKrap@gmail.com
+synopsis:            Haskell2010 compatible library providing miscellaneous generic programming or meta-programming utilities
+description:         Haskell2010 compatible library providing miscellaneous generic programming or meta-programming utilities
+category:            Language, Generics, Data, Utility
+tested-with:         GHC == 7.0.2
+
+library
+  default-language:  Haskell2010
+  hs-source-dirs:    src
+  ghc-options:       -Wall
+  build-depends:
+    base                >= 4   && < 6
+   ,template-haskell    >= 2.5 && < 3
+   ,loch-th             >= 0.1 && < 1
+  exposed-modules:
+    Language.Haskell.Util.Cons
+  other-extensions:
+    TemplateHaskell
+
+source-repository head
+    type:              darcs
+    location:          http://patch-tag.com/r/bob/meta-misc
