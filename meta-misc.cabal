@@ -6,7 +6,7 @@ license:             BSD3
 license-file:        LICENSE
 copyright:           Copyright (C) 2011 Byron James Johnson
 author:              Byron James Johnson
-maintainer:          KrabbyKrap@gmail.com
+maintainer:          ByronJohnsonFP@gmail.com
 synopsis:            Haskell2010 compatible library providing miscellaneous generic programming or meta-programming utilities
 description:         Haskell2010 compatible library providing miscellaneous generic programming or meta-programming utilities
 category:            Language, Generics, Data, Utility
@@ -26,5 +26,5 @@ library
     TemplateHaskell
 
 source-repository head
-    type:              darcs
-    location:          http://patch-tag.com/r/bob/meta-misc
+    type:              git
+    location:          git@github.com:bairyn/meta-misc.git
